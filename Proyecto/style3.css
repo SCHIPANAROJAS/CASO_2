@@ -1,0 +1,38 @@
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px; /* Ajusta el valor según sea necesario */
+}
+
+.column {
+    flex: 1;
+    min-width: 200px; /* Asegura que haya espacio entre ellos */
+    
+
+}
+.footer-logo {
+    margin-bottom: 50px; /* Ajusta la distancia entre logo y links */
+}
+
+.footer-logo p {
+    text-align: justify; /* Justificar el texto */
+}
+
+.footer-links .column h4,
+.footer-links .column ul {
+    text-align: left; /* Alinear los títulos y listas a la izquierda */
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 15px; /* Espacio entre los íconos */
+    margin-top: 20px; /* Espacio entre el texto y los íconos */
+}
+
+.social-icons img {
+    width: 25px; /* Tamaño de los íconos */
+    height: auto;
+}
+
+
