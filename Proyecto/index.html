@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="style3.css">
+    <script src="script.js"></script>
+
 </head>
 
 <body>
@@ -20,15 +22,19 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Teams</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#" data-en="Home" data-es="Inicio">Home</a></li>
+                <li><a href="#" data-en="About" data-es="Acerca de">About</a></li>
+                <li><a href="#" data-en="Teams" data-es="Equipos">Teams</a></li>
+                <li><a href="#" data-en="Blog" data-es="Blog">Blog</a></li>
+                <li><a href="#" data-en="Contact" data-es="Contacto">Contact</a></li>
             </ul>
         </nav>
-        <a href="#" class="btn btn1">Download</a>
+        <a href="#" class="btn btn1" data-en="Download" data-es="Descargar">Download</a>
     </header>
+
+    <button onclick="changeLanguage('es')">ES</button>
+    <button onclick="changeLanguage('en')">EN</button>
+
 
 
     <!-- Hero Section -->
