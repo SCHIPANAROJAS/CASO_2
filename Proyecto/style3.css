@@ -34,5 +34,26 @@
     width: 25px; /* Tamaño de los íconos */
     height: auto;
 }
+.hero-content, .hero-image {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+.hero-image {
+    animation-delay: 0.5s; /* Retraso para que la imagen aparezca después del texto */
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 
