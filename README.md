@@ -1,7 +1,7 @@
-# CASO_2
+LEADING PAGE CHAT BOT
 Landing page promocional de un Chatbot con opción de cambio de idioma.
 
-##Características
+## Características
 Página responsiva creada con HTML, CSS y JavaScript.
 Diseño moderno adaptable a distintos dispositivos.
 Botón que permite cambiar el idioma del contenido de la página dinámicamente.
