@@ -21,16 +21,27 @@ Abre el archivo index.html en tu navegador.
 
 /caso_2
 │── Assets_choose/        # Recursos gráficos (imágenes, íconos) para la sección "choose"
+
 │── Assets_features/      # Recursos gráficos para la sección "features"
+
 │── Assets_trusted/       # Recursos gráficos para la sección "trusted"
+
 │── Latest_News/          # Recursos para la sección de noticias
+
 │── index.html            # Página principal de la landing page
+
 │── logo-empresa.jpg      # Logo de la empresa
+
 │── logo.jpg              # Imagen adicional del proyecto
+
 │── README.md             # Documentación del proyecto
+
 │── script.js             # Lógica del botón de cambio de idioma
+
 │── style.css             # Estilos principales de la landing page
+
 │── style2.css            # Estilos secundarios (quizá para otras secciones)
+
 │── style3.css            # Estilos adicionales o alternativos
 
 ## Uso
