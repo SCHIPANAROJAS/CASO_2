@@ -1,3 +1,4 @@
+```plaintext
 LEADING PAGE CHAT BOT
 Landing page promocional de un Chatbot con opción de cambio de idioma.
 
@@ -5,7 +6,7 @@ Landing page promocional de un Chatbot con opción de cambio de idioma.
 Página responsiva creada con HTML, CSS y JavaScript.
 Diseño moderno adaptable a distintos dispositivos.
 Botón que permite cambiar el idioma del contenido de la página dinámicamente.
-Estructura modular con recursos organizados por secciones (assets, estilos, scripts).
+
 
 ## Requisitos
 Navegador web moderno compatible con HTML5, CSS3 y JavaScript.
@@ -36,7 +37,7 @@ caso_2/
 ├── style.css              # Estilos principales de la landing page
 ├── style2.css             # Estilos secundarios para otras secciones
 └── style3.css             # Estilos adicionales o específicos
-```
+
 ## Uso
 Abre index.html en tu navegador.
 Explora la landing page con información promocional del chatbot.
@@ -53,4 +54,4 @@ Idiomas: Puedes agregar o modificar la lógica del cambio de idioma en script.js
 ## Autor
 Desarrollado por Sofia Chipana
 
-
+```
