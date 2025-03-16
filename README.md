@@ -19,8 +19,10 @@ Abre el archivo index.html en tu navegador.
 
 ## Estructura del Proyecto
 
+## 📁 Estructura del Proyecto
+
+```plaintext
 caso_2/
-│
 ├── Assets_choose/         # Imágenes e íconos de la sección "choose"
 ├── Assets_features/       # Recursos gráficos para la sección "features"
 ├── Assets_trusted/        # Recursos gráficos de la sección "trusted"
@@ -36,6 +38,7 @@ caso_2/
 ├── style.css              # Estilos principales de la landing page
 ├── style2.css             # Estilos secundarios para otras secciones
 └── style3.css             # Estilos adicionales o específicos
+
 
 
 ## Uso
