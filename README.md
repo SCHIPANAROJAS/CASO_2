@@ -19,8 +19,6 @@ Abre el archivo index.html en tu navegador.
 
 ## Estructura del Proyecto
 
-## 📁 Estructura del Proyecto
-
 ```plaintext
 caso_2/
 ├── Assets_choose/         # Imágenes e íconos de la sección "choose"
@@ -38,9 +36,7 @@ caso_2/
 ├── style.css              # Estilos principales de la landing page
 ├── style2.css             # Estilos secundarios para otras secciones
 └── style3.css             # Estilos adicionales o específicos
-
-
-
+```
 ## Uso
 Abre index.html en tu navegador.
 Explora la landing page con información promocional del chatbot.
