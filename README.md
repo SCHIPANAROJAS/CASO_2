@@ -1,4 +1,4 @@
-#caso_2
+# CASO_2
 Landing page promocional de un Chatbot con opción de cambio de idioma.
 
 ##Características
@@ -7,17 +7,17 @@ Diseño moderno adaptable a distintos dispositivos.
 Botón que permite cambiar el idioma del contenido de la página dinámicamente.
 Estructura modular con recursos organizados por secciones (assets, estilos, scripts).
 
-##Requisitos
+## Requisitos
 Navegador web moderno compatible con HTML5, CSS3 y JavaScript.
 No requiere frameworks ni librerías externas.
 
-##Instalación
+## Instalación
 Clona este repositorio o descarga los archivos:
 
 git clone https://github.com/SCHIPANAROJAS/CASO_2.git
 Abre el archivo index.html en tu navegador.
 
-##Estructura del Proyecto
+## Estructura del Proyecto
 
 /caso_2
 │── Assets_choose/        # Recursos gráficos (imágenes, íconos) para la sección "choose"
@@ -33,18 +33,20 @@ Abre el archivo index.html en tu navegador.
 │── style2.css            # Estilos secundarios (quizá para otras secciones)
 │── style3.css            # Estilos adicionales o alternativos
 
-##Uso
+## Uso
 Abre index.html en tu navegador.
 Explora la landing page con información promocional del chatbot.
 Haz clic en el botón para cambiar de idioma de forma dinámica.
 
-##Personalización
+## Personalización
 Estilos: Puedes modificar style.css, style2.css o style3.css según las secciones que necesites personalizar.
 Recursos gráficos: Agrega o reemplaza imágenes dentro de las carpetas Assets_*.
 Idiomas: Puedes agregar o modificar la lógica del cambio de idioma en script.js.
 
-##Estado del Proyecto
-🚧 En desarrollo: Este proyecto sigue en proceso y está sujeto a cambios y mejoras.
+## Estado del Proyecto
+ En desarrollo: Este proyecto sigue en proceso y está sujeto a cambios y mejoras.
 
-##Autor
+## Autor
 Desarrollado por Sofia Chipana
+
+
