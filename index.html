@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo" class="logo-img">
+            affon
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" data-en="Home" data-es="Inicio">Home</a></li>
+                <li><a href="#" data-en="About" data-es="Acerca de">About</a></li>
+                <li><a href="#" data-en="Teams" data-es="Equipos">Teams</a></li>
+                <li><a href="#" data-en="Blog" data-es="Blog">Blog</a></li>
+                <li><a href="#" data-en="Contact" data-es="Contacto">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn btn1" data-en="Download" data-es="Descargar">Download</a>
+    </header>
+
+    <button onclick="changeLanguage('es')">ES</button>
+    <button onclick="changeLanguage('en')">EN</button>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 data-en="Connect anywhere, anytime" data-es="Conéctate en cualquier momento y lugar">Connect anywhere,
+                anytime</h1>
+            <p data-en="Convert more leads, provide exceptional support, and boost your revenue with our revolutionary AI-powered customer service solution."
+                data-es="Convierte más clientes potenciales, brinda soporte 
+                 y aumenta tus ingresos con nuestra revolucionaria solución de servicio al cliente impulsada por IA.">
+                Convert more leads, provide exceptional support, and boost your revenue.
+            </p>
+
+
+            <a href="#" class="btn btn2" data-en="Download" data-es="Descargar">Download</a>
+        </div>
+        <div class="hero-image">
+            <img src="Assets_features/video-call.jpg" alt="Video Call">
+        </div>
+    </section>
+    <section class="trusted-section">
+        <p data-en="Trusted by over <span class='highlight'>50,000</span> dropshippers worldwide"
+            data-es="Con la confianza de más de <span class='highlight'>50,000</span> dropshippers en todo el mundo">
+            Trusted by over <span class="highlight">50,000</span> dropshippers worldwide
+        </p>
+
+
+        <div class="logos">
+            <img src="Assets_trusted/shipbob.jpg" alt="Demio">
+            <img src="Assets_trusted/shipbob.jpg" alt="ShipBob">
+            <img src="Assets_trusted/profitwell.jpg" alt="ProfitWell">
+            <img src="Assets_trusted/demio.jpg" alt="Demio">
+            <img src="Assets_trusted/paypal.jpg" alt="PayPal">
+
+
+        </div>
+        <hr class="soft-line">
+    </section>
+
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2 id="features-title" data-en="Check out All Features" data-es="Descubre todas las características">
+            Check out All Features
+        </h2>
+
+        <p id="features-text"
+            data-en="Our platform is designed to provide you with the best <br> communication experience, with innovative and easy-to-use tools."
+            data-es="Nuestra plataforma está diseñada para brindarte la mejor <br> experiencia de comunicación, con herramientas innovadoras y fáciles de usar.">
+            Our platform is designed to provide you with the best <br>
+            communication experience, with innovative and easy-to-use tools.
+        </p>
+
+        <section class="img-feature">
+            <div class="feature">
+                <img src="Assets_features/audifonos.jpg" alt="Audifonos">
+                <h3 id="audio-video-title" data-en="Audio and HD video calling"
+                    data-es="Llamadas de audio y video en HD">
+                    Audio and HD video calling
+                </h3>
+
+                <p id="audio-video-text"
+                    data-en="Enjoy clear, uninterrupted calls with superior audio and video quality for a better experience."
+                    data-es="Disfruta de llamadas claras e ininterrumpidas con una calidad de audio y video superior para una mejor experiencia.">
+                    Enjoy clear, uninterrupted calls with superior audio and video quality for a better experience.
+                </p>
+
+
+            </div>
+            <div class="feature">
+                <img src="Assets_features/pce.jpg" alt="Pce">
+                <h3 id="screen-sharing-title" data-en="Screen sharing" data-es="Compartir pantalla">
+                    Screen sharing
+                </h3>
+
+                <p id="screen-sharing-text"
+                    data-en="Show your screen to other participants in real time, facilitating collaboration and teamwork."
+                    data-es="Comparte tu pantalla con otros participantes en tiempo real, facilitando la colaboración y el trabajo en equipo.">
+                    Show your screen to other participants in real time, facilitating collaboration and teamwork.
+                </p>
+
+            </div>
+            <div class="feature">
+                <img src="Assets_features/chat.jpg" alt="Chat">
+                <h3 id="smart-messaging-title" data-en="Smart messaging" data-es="Mensajería inteligente">
+                    Smart messaging
+                </h3>
+
+                <p id="smart-messaging-text"
+                    data-en="Send and receive messages efficiently with advanced features like auto-replies and smart suggestions."
+                    data-es="Envía y recibe mensajes de manera eficiente con funciones avanzadas como respuestas automáticas y sugerencias inteligentes.">
+                    Send and receive messages efficiently with advanced features like auto-replies and smart
+                    suggestions.
+                </p>
+
+            </div>
+        </section>
+
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose">
+        <h2 id="why-choose-us-title" data-en="Why Choose Us?" data-es="¿Por qué elegirnos?">
+            Why Choose Us?
+        </h2>
+
+        <p id="why-choose-us-text"
+            data-en="Discover the reasons why thousands of users trust us for their daily communications."
+            data-es="Descubre las razones por las que miles de usuarios confían en nosotros para sus comunicaciones diarias.">
+            Discover the reasons why thousands of users trust us for their daily communications.
+        </p>
+
+        <section class="choose">
+            <img src="Assets_choose/pantalla.jpg" alt="Pantalla">
+
+            <ul class="sec-choose">
+                <li>
+                    <img src="Assets_choose/video-meetings.jpg" alt="Video-meetings">
+                    <span class="texto" data-en="Video Meetings" data-es="Reuniones por video">
+                        Video Meetings
+                    </span>
+
+                    <span class="extra-texto"
+                        data-en="Organize meetings with colleagues and clients regardless of location."
+                        data-es="Organiza reuniones con colegas y clientes sin importar la ubicación.">
+                        Organize meetings with colleagues and clients regardless of location.
+                    </span>
+
+                </li>
+                <li>
+                    <img src="Assets_choose/enhanced-audio.jpg" alt="Enhanced-audio">
+                    <span class="texto" data-en="Enhanced Audio" data-es="Audio mejorado">
+                        Enhanced Audio
+                    </span>
+
+                    <span class="extra-texto" data-en="Enjoy superior sound quality for clearer conversations."
+                        data-es="Disfruta de una calidad de sonido superior para conversaciones más claras.">
+                        Enjoy superior sound quality for clearer conversations.
+                    </span>
+
+                </li>
+                <li>
+                    <img src="Assets_choose/live-subtitles.jpg" alt="Live-subtitles">
+                    <span class="texto" data-en="Live Subtitles" data-es="Subtítulos en vivo">
+                        Live Subtitles
+                    </span>
+
+                    <span class="extra-texto" data-en="Follow the conversations with real-time transcription."
+                        data-es="Sigue las conversaciones con transcripción en tiempo real.">
+                        Follow the conversations with real-time transcription.
+                    </span>
+
+                </li>
+                <li>
+                    <img src="Assets_choose/call-recording.jpg" alt="Call-recording">
+                    <span class="texto" data-en="Call Recording" data-es="Grabación de llamadas">
+                        Call Recording
+                    </span>
+
+                    <span class="extra-texto" data-en="Save your meetings to review later when you need to."
+                        data-es="Guarda tus reuniones para revisarlas más tarde cuando lo necesites.">
+                        Save your meetings to review later when you need to.
+                    </span>
+
+                </li>
+            </ul>
+        </section>
+    </section>
+
+    <section class="collaboration-section">
+        <div class="content">
+            <h2 class="collaboration-title" data-en="Powering collaboration and productivity"
+                data-es="Impulsando la colaboración y la productividad">
+                Powering collaboration and productivity
+            </h2>
+
+            <p class="collaboration-text"
+                data-en="Enhance teamwork and efficiency with our state-of-the-art communication platform. Experience seamless collaboration, real-time updates, and a user-friendly interface designed to optimize your workflow."
+                data-es="Mejora el trabajo en equipo y la eficiencia con nuestra avanzada plataforma de comunicación. Experimenta una colaboración fluida, actualizaciones en tiempo real y una interfaz fácil de usar diseñada para optimizar tu flujo de trabajo.">
+                Enhance teamwork and efficiency with our state-of-the-art communication platform. Experience seamless
+                collaboration, real-time updates, and a user-friendly interface designed to optimize your workflow.
+            </p>
+
+            <a href="#" class="cta-button" data-en="30 days free trial" data-es="Prueba gratuita de 30 días">
+                30 days free trial
+            </a>
+
+        </div>
+        <img src="Latest_News/powering.jpg" alt="Productivity Growth Chart">
+    </section>
+
+    <section class="collaboration-section2">
+        <img src="Latest_News/img-azul.jpg" alt="Productivity Growth Chart">
+        <div class="content">
+            <h2 class="collaboration2-title" data-en="Seamless Integration for Teams"
+                data-es="Integración sin fisuras para equipos">
+                Seamless Integration for Teams
+            </h2>
+
+            <p class="collaboration2-text"
+                data-en="Our platform integrates effortlessly with your favorite tools, ensuring a smooth and efficient workflow. Stay connected, organized, and ahead of the game with our cutting-edge technology."
+                data-es="Nuestra plataforma se integra sin esfuerzo con tus herramientas favoritas, garantizando un flujo de trabajo fluido y eficiente. Mantente conectado, organizado y a la vanguardia con nuestra tecnología de última generación.">
+                Our platform integrates effortlessly with your favorite tools, ensuring a smooth and efficient workflow.
+                Stay connected, organized, and ahead of the game with our cutting-edge technology.
+            </p>
+
+            <a href="#" class="cta2-button" data-en="Try start now" data-es="Prueba ahora">
+                Try start now
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Testimonial -->
+    <section class="testimonial-section">
+        <div class="testimonial-content">
+            <span class="quote">“</span>
+            <p class="testimonial-text"
+                data-en="Project management is the most valuable business resource we have EVER purchased. Project management is worth much more than I paid."
+                data-es="La gestión de proyectos es el recurso empresarial más valioso que hemos comprado. Vale mucho más de lo que pagué.">
+                Project management is the most valuable business resource we have EVER purchased. Project management is
+                worth much more than I paid.
+            </p>
+
+            <div class="author-info">
+                <div class="author-details">
+                    <span class="author-name">Jhon Smith</span>
+                    <br>
+                    <span class="author-title" data-en="Managing director" data-es="Director general">
+                        Managing director
+                    </span>
+
+                </div>
+                <img src="logo-empresa.jpg" alt="Payoneer Logo" class="company-logo">
+            </div>
+        </div>
+        <div class="testimonial-image">
+            <img src="Latest_News/selfie.jpg" alt="Testimonial Image">
+        </div>
+    </section>
+
+
+    <!-- Latest News -->
+    <section class="latest-news">
+        <h2 class="news-title" data-en="Latest News" data-es="Últimas Noticias">
+            Latest News
+        </h2>
+        <p class="news-description"
+            data-en="Stay informed with the latest news in technology, communication, and productivity."
+            data-es="Mantente informado con las últimas noticias en tecnología, comunicación y productividad.">
+            Stay informed with the latest news in technology, communication, and productivity.
+        </p>
+
+
+        <div class="news-container">
+            <div class="news-card">
+                <img src="Latest_News/amigos.jpg" alt="News Image">
+            </div>
+
+            <div class="news-card featured-news">
+                <h3 data-en="Google’s Page Experience <br> Update Launching May <br>there will 2021"
+                    data-es="La actualización de experiencia de página <br> de Google se lanzará en mayo <br> de 2021">
+                    Google’s Page Experience <br> Update Launching May <br>there will 2021
+                </h3>
+                <div class="author-info">
+                    <span>🟡 Cody Fisher</span> | <span>📅 8/30/21</span>
+                </div>
+                <p data-en="Making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words..."
+                    data-es="Haciendo de este el primer generador verdadero en Internet. Usa un diccionario de más de 200 palabras latinas...">
+                    Making this the first true generator on the Internet. It uses a dictionary of over 200 Latin
+                    words...
+                </p>
+                <a href="#" class="learn-more" data-en="Learn More →" data-es="Aprender más →">Learn More →</a>
+
+            </div>
+
+            <div class="news-card">
+                <img src="Latest_News/equipo.jpg" alt="News Image">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Logo y descripción -->
+            <div class="footer-logo">
+                <div class="logo">
+                    <img src="logo.jpg" alt="Logo" class="logo-img">
+                    affon
+                </div>
+                <p data-en="Connect, collaborate and communicate without limits with our platform designed to boost your productivity."
+                    data-es="Conéctate, colabora y comunícate sin límites con nuestra plataforma diseñada para impulsar tu productividad.">
+                    Connect, collaborate and communicate without limits with our platform designed to boost your
+                    productivity.
+                </p>
+
+                <div class="social-icons">
+                    <a href="#"><img src="Assets_trusted/facebook.jpg" alt="Facebook"></a>
+                    <a href="#"><img src="Assets_trusted/twitter.jpg" alt="Twitter"></a>
+                    <a href="#"><img src="Assets_trusted/instagran3.jpg" alt="Instagram"></a>
+                    <a href="#"><img src="Assets_trusted/pinterest.jpg" alt="Pinterest"></a>
+                </div>
+            </div>
+
+            <!-- Menús -->
+            <div class="footer-links">
+                <div class="column">
+                    <h4 data-en="RESOURCES" data-es="RECURSOS">RESOURCES</h4>
+                    <ul>
+                        <li><a href="#" data-en="Download Apps" data-es="Descargar Apps">Download Apps</a></li>
+                        <li><a href="#" data-en="Help Center" data-es="Centro de Ayuda">Help Center</a></li>
+                        <li><a href="#" data-en="Productivity" data-es="Productividad">Productivity</a></li>
+                        <li><a href="#" data-en="Methods" data-es="Métodos">Methods</a></li>
+                        <li><a href="#" data-en="Refer a friend" data-es="Recomendar a un amigo">Refer a friend</a></li>
+                        <li><a href="#" data-en="Integrations" data-es="Integraciones">Integrations</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="column">
+                    <h4 data-en="PRODUCT" data-es="PRODUCTO">PRODUCT</h4>
+                    <ul>
+                        <li><a href="#" data-en="How it Works" data-es="Cómo funciona">How it Works</a></li>
+                        <li><a href="#" data-en="Login" data-es="Iniciar sesión">Login</a></li>
+                        <li><a href="#" data-en="Get Tara for Free" data-es="Obtén Tara gratis">Get Tara for Free</a>
+                        </li>
+                        <li><a href="#" data-en="Task" data-es="Tarea">Task</a></li>
+                        <li><a href="#" data-en="Management" data-es="Gestión">Management</a></li>
+                        <li><a href="#" data-en="Weekly Sprints" data-es="Sprints semanales">Weekly Sprints</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="column">
+                    <h4 data-en="ABOUT" data-es="SOBRE NOSOTROS">ABOUT</h4>
+                    <ul>
+                        <li><a href="#" data-en="About Us" data-es="Sobre nosotros">About Us</a></li>
+                        <li><a href="#" data-en="We are hiring!" data-es="¡Estamos contratando!">We are hiring!</a></li>
+                        <li><a href="#" data-en="Blog" data-es="Blog">Blog</a></li>
+                        <li><a href="#" data-en="Press" data-es="Prensa">Press</a></li>
+                        <li><a href="#" data-en="Twist" data-es="Twist">Twist</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
