@@ -41,7 +41,7 @@ caso_2/
 ```
 ## Uso
 ```plaintext
-Abre index.html en tu navegador.
+Abre https://schipanarojas.github.io/CASO_2/ en tu navegador.
 Explora la landing page con información promocional del chatbot.
 Haz clic en el botón para cambiar de idioma de forma dinámica.
 ```
